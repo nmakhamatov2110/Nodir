@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card, .card-header, .card-body, .card-footer{
+    background-color:transparent!important;
+}
+.box {
+    background: url(./bg3.jpg) no-repeat center center/cover fixed;
+}
+.rem2009 {
+    height: 250px;
+    width: 250px;
+    background: url(bg3.jpg) center center/cover no-repeat;
+    border-radius: 5px;
+}
+.rem2008 {
+    height: 250px;
+    width: 500px;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container2007 {
+    height: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn1 {
+    list-style: none;
+    color: red;
+    border: red solid 1px ;
+    padding: 6px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+.btn1:hover {
+    color: white;
+    background: red;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.box1{
+    background: url(/bg2.jpg);
+}
